@@ -74,7 +74,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
     private var score = 0
     private var correctCount = 0
     private var streak = 0
-    private var remainingMs = GameConfig.QUESTION_TIME_MS
+    private var remainingTimeMs = GameConfig.QUESTION_TIME_MS
     private var lastSyncAt = 0L
     private var answering = false
     private var lifecyclePaused = false
@@ -161,7 +161,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
     // ---------------------------------------------------------------- showing questions
 
     private fun showQuestion(index: Int, remaining: Long) {
-        remainingMs = remaining
+        remainingTimeMs = remaining
         _remainingMs.value = remaining
         answering = true
         _state.update {
@@ -186,7 +186,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
     private fun showAnswered(index: Int, record: AnswerRecord) {
         answering = false
         stopTicking(sync = false)
-        remainingMs = 0L
+        remainingTimeMs = 0L
         _remainingMs.value = (GameConfig.QUESTION_TIME_MS - (record.responseTimeSeconds * 1000f).toLong()).coerceAtLeast(0L)
         _state.update {
             it.copy(
@@ -222,8 +222,8 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
             while (true) {
                 delay(TICK_MS)
                 syncRemaining()
-                _remainingMs.value = remainingMs
-                if (remainingMs <= 0L) {
+                _remainingMs.value = remainingTimeMs
+                if (remainingTimeMs <= 0L) {
                     onTimeout()
                     break
                 }
@@ -239,7 +239,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
 
     private fun syncRemaining() {
         val now = SystemClock.elapsedRealtime()
-        remainingMs = (remainingMs - (now - lastSyncAt)).coerceAtLeast(0L)
+        remainingTimeMs = (remainingTimeMs - (now - lastSyncAt)).coerceAtLeast(0L)
         lastSyncAt = now
     }
 
@@ -265,7 +265,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
         if (isPaused()) {
             if (answering) {
                 stopTicking(sync = true)
-                _remainingMs.value = remainingMs
+                _remainingMs.value = remainingTimeMs
             }
             persist()
         } else if (answering && tickJob == null) {
@@ -280,8 +280,8 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
         if (!answering || isPaused() || selectedIndex !in 0 until GameConfig.OPTION_COUNT) return
         answering = false
         stopTicking(sync = true)
-        _remainingMs.value = remainingMs
-        val seconds = (GameConfig.QUESTION_TIME_MS - remainingMs) / 1000f
+        _remainingMs.value = remainingTimeMs
+        val seconds = (GameConfig.QUESTION_TIME_MS - remainingTimeMs) / 1000f
         registerAnswer(question, selectedIndex, seconds, timedOut = false)
     }
 
@@ -289,7 +289,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
         val question = _state.value.question ?: return
         if (!answering) return
         answering = false
-        remainingMs = 0L
+        remainingTimeMs = 0L
         _remainingMs.value = 0L
         registerAnswer(question, -1, GameConfig.QUESTION_TIME_SECONDS.toFloat(), timedOut = true)
     }
@@ -368,7 +368,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
     fun leave(onDone: () -> Unit) {
         stopTicking(sync = true)
         val saved = if (sessionId != 0L && !finishing && order.isNotEmpty()) {
-            SavedGame(sessionId, level, order.map { it.id }, _state.value.index, remainingMs)
+            SavedGame(sessionId, level, order.map { it.id }, _state.value.index, remainingTimeMs)
         } else {
             null
         }
@@ -380,7 +380,7 @@ class GameViewModel(app: Application, handle: SavedStateHandle) : AndroidViewMod
 
     private fun persist() {
         if (sessionId == 0L || finishing || order.isEmpty()) return
-        val saved = SavedGame(sessionId, level, order.map { it.id }, _state.value.index, remainingMs)
+        val saved = SavedGame(sessionId, level, order.map { it.id }, _state.value.index, remainingTimeMs)
         viewModelScope.launch { ioLock.withLock { savedGames.save(saved) } }
     }
 
