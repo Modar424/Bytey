@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BYTEWISE</string>
+    <string name="app_title">BYTEWISE</string>
+    <string name="tagline">Think Smart. Code Smarter.</string>
+    <string name="splash_loading">Loading…</string>
+
+    <string name="menu_start">Start Game</string>
+    <string name="menu_levels">Choose Level</string>
+    <string name="menu_progress">My Progress</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_quit">Quit</string>
+
+    <string name="cd_sound_on">Game sound is on. Tap to mute</string>
+    <string name="cd_sound_off">Game sound is off. Tap to unmute</string>
+    <string name="cd_language">Switch language</string>
+    <string name="cd_theme">Switch light or dark theme</string>
+    <string name="cd_bytey_muted">Bytey sound is muted. Tap to unmute</string>
+    <string name="cd_bytey_unmuted">Bytey sound is on. Tap to mute</string>
+    <string name="cd_back">Back</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="language_arabic">Arabic</string>
+    <string name="language_english">English</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_sound">Game sound</string>
+    <string name="settings_bytey_sound">Bytey sounds</string>
+    <string name="settings_bytey_sound_desc">Mute only Bytey\'s voice and effects</string>
+
+    <string name="levels_title">Choose Level</string>
+    <string name="progress_title">My Progress</string>
+    <string name="coming_soon">This screen arrives in a later development phase.</string>
+
+    <string name="cd_bytey">Bytey the dinosaur</string>
+    <string-array name="bytey_correct">
+        <item>Brilliant! Are you an AI in disguise?</item>
+        <item>Correct! Teach me your secrets!</item>
+        <item>Whoa! Even I needed a second to think!</item>
+        <item>I\'m proud of you... don\'t tell anyone!</item>
+        <item>Nailed it! Your stack never overflows!</item>
+    </string-array>
+    <string-array name="bytey_incorrect">
+        <item>Oh no! Even a cactus might have done better! 🌵</item>
+        <item>Your tokens just left your brain!</item>
+        <item>It\'s okay. We are testing wrong answers too!</item>
+        <item>What have you done, human?! 😂</item>
+    </string-array>
+    <string-array name="bytey_fast">
+        <item>Is your brain powered by Groq?! ⚡</item>
+        <item>Slow down! I haven\'t even finished reading!</item>
+        <item>You\'re faster than some model APIs!</item>
+    </string-array>
+    <string-array name="bytey_timeout">
+        <item>We waited until the question expired! 😂</item>
+        <item>Time\'s up! Even dinosaurs moved faster!</item>
+        <item>I\'d answer for you, but I don\'t have permissions!</item>
+    </string-array>
+    <string-array name="bytey_streak">
+        <item>Five in a row! You\'re on fire! 🔥</item>
+        <item>Streak mode: ON. Multiplier ready!</item>
+    </string-array>
+    <string-array name="bytey_personal_best">
+        <item>A new personal best! Time to update your résumé!</item>
+        <item>Record broken! Even my cache is impressed!</item>
+    </string-array>
+    <string-array name="bytey_level_high">
+        <item>You\'re a legend! The next level needs an emergency meeting with OpenAI!</item>
+        <item>Legendary run! Even the compiler is impressed!</item>
+    </string-array>
+    <string-array name="bytey_level_average">
+        <item>Good job! But we still have some tokens to munch!</item>
+        <item>Solid run! A little review and you\'ll fly!</item>
+    </string-array>
+    <string-array name="bytey_level_low">
+        <item>Don\'t be sad! Even dinosaurs needed millions of years to evolve!</item>
+        <item>Every bug you fix is a level gained. Try again!</item>
+    </string-array>
+    <string-array name="bytey_level_unlocked">
+        <item>New level unlocked! Let\'s see if you survive this time! 😏</item>
+        <item>A glowing portal! What could possibly go wrong?</item>
+    </string-array>
+    <string-array name="bytey_learning_report">
+        <item>Found the problem! You and PostgreSQL need a heart-to-heart! 😂</item>
+        <item>Let me grab my magnifying glass... aha, a weak spot!</item>
+    </string-array>
+    <string-array name="bytey_improvement">
+        <item>You improved! That weakness just got a lot weaker!</item>
+        <item>Progress detected! Your old mistakes are shaking!</item>
+    </string-array>
+    <string-array name="bytey_menu_greeting">
+        <item>Ready to think smart and code smarter?</item>
+        <item>Hi, human! Let\'s debug your knowledge.</item>
+        <item>Tap me and I\'ll tell you a dino joke... maybe.</item>
+    </string-array>
+    <string-array name="bytey_settings_tip">
+        <item>Settings! Where bugs hide... I mean, preferences.</item>
+        <item>Mute me if I get too dramatic. I won\'t be offended!</item>
+    </string-array>
+    <string-array name="bytey_coming_soon">
+        <item>This screen is still under construction. Even I can\'t compile it yet!</item>
+    </string-array>
+    <!-- Phase 5: gameplay, levels, results -->
+    <string name="action_back">Back</string>
+    <string name="game_loading">Preparing your questions…</string>
+    <string name="game_error_empty">The question bank could not be loaded.</string>
+    <string name="game_error_locked">This level is still locked.</string>
+    <string name="game_error_save">Your result could not be saved. Please try again.</string>
+    <string name="game_level_title">Level %1$d</string>
+    <string name="game_question_counter">Question %1$d of %2$d</string>
+    <string name="game_seconds_left">%1$d s</string>
+    <string name="game_multiplier_active">×2 BONUS ON THIS QUESTION!</string>
+    <string name="game_multiplier_next">×2 BONUS ON THE NEXT QUESTION!</string>
+    <string name="game_correct">Correct! +%1$d points</string>
+    <string name="game_correct_x2">Correct! +%1$d points (×2 bonus)</string>
+    <string name="game_wrong">Not quite. 0 points</string>
+    <string name="game_timeout">Time\'s up! 0 points</string>
+    <string name="game_explanation">Why?</string>
+    <string name="game_next">Next question</string>
+    <string name="game_finish">See results</string>
+    <string name="game_exit_title">Leave this level?</string>
+    <string name="game_exit_message">Your progress is saved, so you can resume this level later.</string>
+    <string name="game_exit_keep">Keep playing</string>
+    <string name="game_exit_leave">Leave</string>
+    <string-array name="option_labels">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string name="category_general">General Knowledge</string>
+    <string name="category_tokens">Tokens &amp; Prompt Engineering</string>
+    <string name="category_ai_tools">AI Tools</string>
+    <string name="category_models">Models &amp; Performance</string>
+    <string name="category_architecture">Software Architecture</string>
+
+    <string name="levels_hint_locked">Get at least %1$d of %2$d answers right to unlock the next level.</string>
+    <string name="level_number">Level %1$d</string>
+    <string name="level_status_locked">Locked</string>
+    <string name="level_status_open">Ready</string>
+    <string name="level_status_completed">Completed</string>
+    <string name="level_best_score">Best: %1$d</string>
+    <string name="level_no_score">No score yet</string>
+    <string name="level_resume_title">Unfinished game</string>
+    <string name="level_resume_message">You have an unfinished run of level %1$d. Continue where you stopped?</string>
+    <string name="level_resume">Resume</string>
+    <string name="level_restart">Start over</string>
+
+    <string name="result_title">Level %1$d results</string>
+    <string name="result_passed">Level passed!</string>
+    <string name="result_failed">Not passed yet. You need at least %1$d correct answers.</string>
+    <string name="result_score">Score</string>
+    <string name="result_correct">Correct answers</string>
+    <string name="result_correct_value">%1$d / %2$d</string>
+    <string name="result_accuracy">Accuracy</string>
+    <string name="result_accuracy_value">%1$d%%</string>
+    <string name="result_streak">Longest streak</string>
+    <string name="result_time">Time spent</string>
+    <string name="result_time_value">%1$d:%2$02d</string>
+    <string name="result_new_best">New personal best!</string>
+    <string name="result_unlocked">Level %1$d unlocked!</string>
+    <string name="result_next_level">Next level</string>
+    <string name="result_retry">Try again</string>
+    <string name="result_menu">Main menu</string>
+
+    <string-array name="bytey_levels_tip">
+        <item>Pick a level! Locked ones are just shy.</item>
+        <item>Each level is 25 questions. No pressure... maybe a little.</item>
+    </string-array>
+
+    <!-- Phase 6: learning report & progress -->
+    <string name="report_title">Learning report</string>
+    <string name="report_button">Learning report</string>
+    <string name="report_missing">No report is available for this run.</string>
+    <string name="report_summary_title">Summary</string>
+    <string name="report_mistakes">Mistakes</string>
+    <string name="report_timeouts">Timeouts</string>
+    <string name="report_avg_correct">Average time (correct)</string>
+    <string name="report_seconds">%1$.1f s</string>
+    <string name="report_advice_title">Advice from Bytey</string>
+    <string name="report_weak_title">Concepts to work on</string>
+    <string name="report_strong_title">Concepts you nailed</string>
+    <string name="report_plan_title">Study plan</string>
+    <string name="report_plan_total">About %1$d minutes in total</string>
+    <string name="report_plan_item">%1$d min</string>
+    <string name="report_no_weak">No weak concepts here. Nothing to fix!</string>
+    <string name="report_accuracy">%1$d%% correct (%2$d of %3$d)</string>
+    <string name="report_weak_levels">Weak in levels: %1$s</string>
+    <string name="report_practice">Practice challenge</string>
+    <string name="report_advanced">Advanced challenge</string>
+    <string name="report_resources">Resources</string>
+    <string name="report_resource_lang_en">English page</string>
+    <string name="report_resource_lang_ar">Arabic page</string>
+    <string name="report_unknown_concept">Unknown concept</string>
+    <string name="trend_new">New</string>
+    <string name="trend_improving">Improving</string>
+    <string name="trend_stable">Stable</string>
+    <string name="trend_regressing">Slipping</string>
+    <string name="badge_persistent">Weak across levels</string>
+    <string name="advice_perfect">No mistakes at all. Impressive!</string>
+    <string name="advice_focus">Start with “%1$s”. It cost you the most.</string>
+    <string name="advice_persistent">“%1$s” was weak in several levels, so give it extra time.</string>
+    <string name="advice_improved">“%1$s” is getting better. Keep it up!</string>
+    <string name="advice_regressed">“%1$s” slipped compared with your earlier runs. Review it again.</string>
+    <string name="advice_timeouts">%1$d questions ran out of time. Practise recalling the basics faster.</string>
+    <string name="advice_slow_down">Your mistakes came fast. Read the whole question and all four options first.</string>
+    <string name="advice_speed_up">You are accurate but slow. Short daily recall practice will speed you up.</string>
+    <string name="advice_retry">Study the weak concepts, then try this level again.</string>
+    <string name="advice_next">Skim the weak concepts, then move on to the next level.</string>
+    <string name="progress_runs">Completed runs</string>
+    <string name="progress_answers">Answers given</string>
+    <string name="progress_accuracy">Overall accuracy</string>
+    <string name="progress_levels_title">Best score per level</string>
+    <string name="progress_level_row">Level %1$d</string>
+    <string name="progress_not_played">Not played yet</string>
+    <string name="progress_empty">Finish a level to see your progress and weak spots here.</string>
+    <string name="progress_weak_title">Weakest concepts</string>
+
+    <!-- Phase 7: accessibility -->
+    <string name="a11y_option_correct">Correct answer</string>
+    <string name="a11y_option_wrong">Your answer, wrong</string>
+</resources>

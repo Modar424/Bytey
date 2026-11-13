@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بايت وذكاء</string>
+    <string name="app_title">بايت وذكاء</string>
+    <string name="tagline">اختبر عقلك، اكتشف أخطاءك، وارتقِ بمستواك!</string>
+    <string name="splash_loading">جارٍ التحميل…</string>
+
+    <string name="menu_start">ابدأ اللعب</string>
+    <string name="menu_levels">اختر المستوى</string>
+    <string name="menu_progress">تقدّمي</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_quit">خروج</string>
+
+    <string name="cd_sound_on">صوت اللعبة يعمل. اضغط للكتم</string>
+    <string name="cd_sound_off">صوت اللعبة مكتوم. اضغط للتشغيل</string>
+    <string name="cd_language">تبديل اللغة</string>
+    <string name="cd_theme">التبديل بين الوضع الفاتح والداكن</string>
+    <string name="cd_bytey_muted">صوت بايتي مكتوم. اضغط للتشغيل</string>
+    <string name="cd_bytey_unmuted">صوت بايتي يعمل. اضغط للكتم</string>
+    <string name="cd_back">رجوع</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">الإنجليزية</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="theme_system">افتراضي النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="settings_sound">صوت اللعبة</string>
+    <string name="settings_bytey_sound">أصوات بايتي</string>
+    <string name="settings_bytey_sound_desc">كتم صوت بايتي ومؤثراته فقط</string>
+
+    <string name="levels_title">اختر المستوى</string>
+    <string name="progress_title">تقدّمي</string>
+    <string name="coming_soon">ستتوفر هذه الشاشة في مرحلة تطوير لاحقة.</string>
+
+    <string name="cd_bytey">بايتي الديناصور</string>
+    <string-array name="bytey_correct">
+        <item>يا سلام! بدأت أشك أنك ذكاء اصطناعي متنكر! 😂</item>
+        <item>إجابة صحيحة! أعطني كودك السري!</item>
+        <item>وحش! حتى أنا لم أكن سأجيب بهذه السرعة!</item>
+        <item>أحسنت! بدأت أشعر بالفخر... لا تخبر أحداً!</item>
+        <item>هذا هو الكلام! تستحق حفلة!</item>
+    </string-array>
+    <string-array name="bytey_incorrect">
+        <item>يا ساتر! حتى الصبار كان سيختار إجابة أفضل! 🌵</item>
+        <item>أعتقد أن التوكنز غادرت دماغك للحظة!</item>
+        <item>لا بأس... سأعتبر أننا نختبر الخيارات الخاطئة!</item>
+        <item>ماذا فعلت يا إنسان؟! 😂</item>
+        <item>حتى أنا كنت سأجيب بشكل أفضل... وربما لا!</item>
+    </string-array>
+    <string-array name="bytey_fast">
+        <item>يا إلهي! هل عقلك يعمل بمعالج Groq؟!</item>
+        <item>أبطئ قليلاً! لم ألحق حتى بقراءة السؤال!</item>
+        <item>أنت أسرع من استجابة بعض المودلات! ⚡</item>
+    </string-array>
+    <string-array name="bytey_timeout">
+        <item>انتظرنا حتى انتهت صلاحية السؤال! 😂</item>
+        <item>كنت سأجيب عنك، لكنني لا أملك صلاحية الدخول!</item>
+        <item>انتهى الوقت! حتى الديناصورات انقرضت أسرع!</item>
+    </string-array>
+    <string-array name="bytey_streak">
+        <item>خمس إجابات متتالية! أنت مشتعل! 🔥</item>
+        <item>وضع السلسلة يعمل! المضاعِف جاهز!</item>
+    </string-array>
+    <string-array name="bytey_personal_best">
+        <item>رقم قياسي جديد! حان وقت تحديث سيرتك الذاتية!</item>
+        <item>تحطّم الرقم! حتى الذاكرة المؤقتة معجبة بك!</item>
+    </string-array>
+    <string-array name="bytey_level_high">
+        <item>أنت أسطورة! المستوى القادم يحتاج إلى اجتماع طارئ مع OpenAI!</item>
+        <item>أداء أسطوري! حتى المترجم أُعجب بك!</item>
+    </string-array>
+    <string-array name="bytey_level_average">
+        <item>عمل جيد! لكن لا يزال لدينا بعض التوكنز لنلتهمها!</item>
+        <item>جولة جيدة! مراجعة بسيطة وستحلّق!</item>
+    </string-array>
+    <string-array name="bytey_level_low">
+        <item>لا تحزن! حتى الديناصورات احتاجت ملايين السنين للتطور!</item>
+        <item>كل خطأ تصلحه يرفع مستواك. جرّب مرة أخرى!</item>
+    </string-array>
+    <string-array name="bytey_level_unlocked">
+        <item>المستوى الجديد مفتوح! هيا نرى إن كنت ستنجو هذه المرة! 😏</item>
+        <item>بوابة متوهجة! ماذا يمكن أن يحدث من خطأ؟</item>
+    </string-array>
+    <string-array name="bytey_learning_report">
+        <item>وجدنا المشكلة! أنت و PostgreSQL تحتاجان جلسة مصارحة! 😂</item>
+        <item>سأحضر عدستي المكبّرة... آها، وجدنا نقطة ضعف!</item>
+    </string-array>
+    <string-array name="bytey_improvement">
+        <item>تحسّنت! نقطة الضعف هذه أصبحت أضعف بكثير!</item>
+        <item>تم رصد تقدّم! أخطاؤك القديمة ترتجف!</item>
+    </string-array>
+    <string-array name="bytey_menu_greeting">
+        <item>جاهز لتفكر بذكاء وتبرمج بذكاء أكبر؟</item>
+        <item>أهلاً يا إنسان! هيا نصحّح أخطاء معلوماتك.</item>
+        <item>اضغط عليّ وسأحكي لك نكتة عن الديناصورات... ربما.</item>
+    </string-array>
+    <string-array name="bytey_settings_tip">
+        <item>الإعدادات! حيث تختبئ الأخطاء... أقصد التفضيلات.</item>
+        <item>اكتم صوتي إن بالغتُ في الدراما. لن أغضب!</item>
+    </string-array>
+    <string-array name="bytey_coming_soon">
+        <item>هذه الشاشة قيد الإنشاء. حتى أنا لا أستطيع ترجمتها برمجياً بعد!</item>
+    </string-array>
+    <!-- Phase 5: gameplay, levels, results -->
+    <string name="action_back">رجوع</string>
+    <string name="game_loading">جارٍ تجهيز الأسئلة…</string>
+    <string name="game_error_empty">تعذّر تحميل بنك الأسئلة.</string>
+    <string name="game_error_locked">هذا المستوى ما زال مقفلاً.</string>
+    <string name="game_error_save">تعذّر حفظ نتيجتك. حاول مرة أخرى.</string>
+    <string name="game_level_title">المستوى %1$d</string>
+    <string name="game_question_counter">السؤال %1$d من %2$d</string>
+    <string name="game_seconds_left">%1$d ث</string>
+    <string name="game_multiplier_active">مكافأة ×2 على هذا السؤال!</string>
+    <string name="game_multiplier_next">مكافأة ×2 على السؤال القادم!</string>
+    <string name="game_correct">إجابة صحيحة! +%1$d نقطة</string>
+    <string name="game_correct_x2">إجابة صحيحة! +%1$d نقطة (مكافأة ×2)</string>
+    <string name="game_wrong">ليست الإجابة الصحيحة. 0 نقطة</string>
+    <string name="game_timeout">انتهى الوقت! 0 نقطة</string>
+    <string name="game_explanation">لماذا؟</string>
+    <string name="game_next">السؤال التالي</string>
+    <string name="game_finish">عرض النتيجة</string>
+    <string name="game_exit_title">مغادرة هذا المستوى؟</string>
+    <string name="game_exit_message">تقدّمك محفوظ، ويمكنك متابعة هذا المستوى لاحقاً.</string>
+    <string name="game_exit_keep">متابعة اللعب</string>
+    <string name="game_exit_leave">مغادرة</string>
+    <string-array name="option_labels">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ج</item>
+        <item>د</item>
+    </string-array>
+    <string name="category_general">معرفة عامة</string>
+    <string name="category_tokens">التوكنز وهندسة الأوامر</string>
+    <string name="category_ai_tools">أدوات الذكاء الاصطناعي</string>
+    <string name="category_models">النماذج والأداء</string>
+    <string name="category_architecture">هندسة البرمجيات</string>
+
+    <string name="levels_hint_locked">أجب إجابات صحيحة عن %1$d من %2$d على الأقل لتفتح المستوى التالي.</string>
+    <string name="level_number">المستوى %1$d</string>
+    <string name="level_status_locked">مقفل</string>
+    <string name="level_status_open">جاهز</string>
+    <string name="level_status_completed">مكتمل</string>
+    <string name="level_best_score">الأفضل: %1$d</string>
+    <string name="level_no_score">لا توجد نتيجة بعد</string>
+    <string name="level_resume_title">لعبة غير مكتملة</string>
+    <string name="level_resume_message">لديك جولة غير مكتملة في المستوى %1$d. هل تتابع من حيث توقفت؟</string>
+    <string name="level_resume">متابعة</string>
+    <string name="level_restart">البدء من جديد</string>
+
+    <string name="result_title">نتيجة المستوى %1$d</string>
+    <string name="result_passed">تم اجتياز المستوى!</string>
+    <string name="result_failed">لم تجتز المستوى بعد. تحتاج إلى %1$d إجابة صحيحة على الأقل.</string>
+    <string name="result_score">النقاط</string>
+    <string name="result_correct">الإجابات الصحيحة</string>
+    <string name="result_correct_value">%1$d / %2$d</string>
+    <string name="result_accuracy">الدقة</string>
+    <string name="result_accuracy_value">%1$d%%</string>
+    <string name="result_streak">أطول سلسلة</string>
+    <string name="result_time">الوقت المستغرق</string>
+    <string name="result_time_value">%1$d:%2$02d</string>
+    <string name="result_new_best">رقم قياسي شخصي جديد!</string>
+    <string name="result_unlocked">تم فتح المستوى %1$d!</string>
+    <string name="result_next_level">المستوى التالي</string>
+    <string name="result_retry">حاول مرة أخرى</string>
+    <string name="result_menu">القائمة الرئيسية</string>
+
+    <string-array name="bytey_levels_tip">
+        <item>اختر مستوى! المستويات المقفلة خجولة فقط.</item>
+        <item>في كل مستوى 25 سؤالاً. لا ضغط... ربما قليل.</item>
+    </string-array>
+
+    <!-- Phase 6: learning report & progress -->
+    <string name="report_title">تقرير التعلّم</string>
+    <string name="report_button">تقرير التعلّم</string>
+    <string name="report_missing">لا يوجد تقرير لهذه الجولة.</string>
+    <string name="report_summary_title">الملخّص</string>
+    <string name="report_mistakes">الأخطاء</string>
+    <string name="report_timeouts">انتهاء الوقت</string>
+    <string name="report_avg_correct">متوسط الزمن (الإجابات الصحيحة)</string>
+    <string name="report_seconds">%1$.1f ث</string>
+    <string name="report_advice_title">نصائح من بايتي</string>
+    <string name="report_weak_title">مفاهيم تحتاج عملاً</string>
+    <string name="report_strong_title">مفاهيم أتقنتها</string>
+    <string name="report_plan_title">خطة الدراسة</string>
+    <string name="report_plan_total">حوالي %1$d دقيقة في المجموع</string>
+    <string name="report_plan_item">%1$d د</string>
+    <string name="report_no_weak">لا توجد مفاهيم ضعيفة هنا. لا شيء لإصلاحه!</string>
+    <string name="report_accuracy">%1$d%% صحيحة (%2$d من %3$d)</string>
+    <string name="report_weak_levels">ضعيف في المستويات: %1$s</string>
+    <string name="report_practice">تحدّي التطبيق</string>
+    <string name="report_advanced">تحدٍّ متقدّم</string>
+    <string name="report_resources">المصادر</string>
+    <string name="report_resource_lang_en">صفحة بالإنجليزية</string>
+    <string name="report_resource_lang_ar">صفحة بالعربية</string>
+    <string name="report_unknown_concept">مفهوم غير معروف</string>
+    <string name="trend_new">جديد</string>
+    <string name="trend_improving">يتحسّن</string>
+    <string name="trend_stable">مستقر</string>
+    <string name="trend_regressing">يتراجع</string>
+    <string name="badge_persistent">ضعيف عبر عدة مستويات</string>
+    <string name="advice_perfect">لا أخطاء إطلاقاً. أداء مبهر!</string>
+    <string name="advice_focus">ابدأ بمفهوم «%1$s». هو الأكثر تكلفة عليك.</string>
+    <string name="advice_persistent">مفهوم «%1$s» ضعيف في عدة مستويات، فامنحه وقتاً إضافياً.</string>
+    <string name="advice_improved">مفهوم «%1$s» يتحسّن. استمر!</string>
+    <string name="advice_regressed">مفهوم «%1$s» تراجع مقارنة بجولاتك السابقة. راجعه مجدداً.</string>
+    <string name="advice_timeouts">انتهى الوقت في %1$d أسئلة. تدرّب على استرجاع الأساسيات بسرعة أكبر.</string>
+    <string name="advice_slow_down">أخطاؤك جاءت سريعة. اقرأ السؤال كاملاً والخيارات الأربعة أولاً.</string>
+    <string name="advice_speed_up">إجاباتك دقيقة لكنها بطيئة. تمرين يومي قصير على الاسترجاع سيسرّعك.</string>
+    <string name="advice_retry">ادرس المفاهيم الضعيفة ثم أعد المستوى.</string>
+    <string name="advice_next">ألقِ نظرة على المفاهيم الضعيفة ثم انتقل إلى المستوى التالي.</string>
+    <string name="progress_runs">الجولات المكتملة</string>
+    <string name="progress_answers">الإجابات المقدَّمة</string>
+    <string name="progress_accuracy">الدقة الكلية</string>
+    <string name="progress_levels_title">أفضل نتيجة لكل مستوى</string>
+    <string name="progress_level_row">المستوى %1$d</string>
+    <string name="progress_not_played">لم يُلعب بعد</string>
+    <string name="progress_empty">أكمل مستوى لترى تقدّمك ونقاط ضعفك هنا.</string>
+    <string name="progress_weak_title">أضعف المفاهيم</string>
+
+    <!-- Phase 7: accessibility -->
+    <string name="a11y_option_correct">الإجابة الصحيحة</string>
+    <string name="a11y_option_wrong">إجابتك، خاطئة</string>
+</resources>
