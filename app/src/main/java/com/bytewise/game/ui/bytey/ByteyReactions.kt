@@ -4,8 +4,8 @@ import com.bytewise.game.domain.SoundCue
 
 /** Chooses which Bytey reaction (and sounds) fit a game moment. Pure functions, unit-tested. */
 object ByteyReactions {
-    /** Correct answers of 30 from which a passed level counts as a high performance. */
-    const val HIGH_PERFORMANCE_CORRECT = 24
+    /** 20 or more correct answers out of 30 counts as a high performance. */
+    const val HIGH_PERFORMANCE_CORRECT = 20
 
     /** Priority: timeout > wrong > streak milestone > fast > plain correct. */
     fun forAnswer(isCorrect: Boolean, timedOut: Boolean, isFast: Boolean, streakMilestone: Boolean): ByteyEvent = when {
