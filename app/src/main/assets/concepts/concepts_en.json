@@ -1,0 +1,1102 @@
+[
+ {
+  "id": "programming_history",
+  "name": "Programming History",
+  "description": "How languages and ideas evolved, from machine code and Fortran to today's high-level languages.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/History_of_programming_languages",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "History of programming languages",
+    "description": "Overview of languages from the 1940s to today."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Ada Lovelace",
+    "description": "The first published algorithm intended for a machine."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Grace Hopper",
+    "description": "Compilers, COBOL and the first 'bug' story."
+   },
+   {
+    "url": "https://cs50.harvard.edu/x/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Harvard CS50",
+    "description": "Free introduction to computer science and programming."
+   }
+  ],
+  "practiceChallenge": "Pick two languages from different decades and list three design choices each made differently.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Write a one-page timeline linking each language to the problem it was created to solve."
+ },
+ {
+  "id": "javascript_history",
+  "name": "JavaScript History",
+  "description": "Why JavaScript got its name, how it was built in days at Netscape, and how ECMAScript standardised it.",
+  "resources": [
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: JavaScript",
+    "description": "The reference and guides for the language."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: JavaScript Guide",
+    "description": "Step-by-step guide including language overview."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/JavaScript",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "JavaScript (Wikipedia)",
+    "description": "History, naming and standardisation."
+   },
+   {
+    "url": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "The Birth & Death of JavaScript",
+    "description": "A funny, thoughtful talk on JavaScript's trajectory."
+   }
+  ],
+  "practiceChallenge": "Open the browser console and run typeof null; then read why it returns 'object'.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Write a short note explaining how ECMAScript versions relate to what browsers actually run."
+ },
+ {
+  "id": "ai_naming",
+  "name": "AI Naming and Origins",
+  "description": "The stories behind names such as 'Artificial Intelligence', Python, Gemini and Claude, and what is documented versus folklore.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Dartmouth workshop (1956)",
+    "description": "Where the term 'Artificial Intelligence' was introduced."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Claude_Shannon",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Claude Shannon",
+    "description": "Father of information theory."
+   },
+   {
+    "url": "https://docs.python.org/3/faq/general.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Python FAQ: Why is it called Python?",
+    "description": "The official answer in the general FAQ."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Project_Gemini",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "NASA's Project Gemini",
+    "description": "The space programme behind the 'twins' name."
+   }
+  ],
+  "practiceChallenge": "Pick three tech product names and find a primary source for each name's origin.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Write down which naming claims you found are officially documented and which are only reported."
+ },
+ {
+  "id": "data_mining_naming",
+  "name": "Data Mining vs Information Retrieval",
+  "description": "Why 'data mining' means finding patterns in data (not extracting data) and how it differs from retrieving known documents.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Data_mining",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Data mining",
+    "description": "Definition, process and the origin of the term."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Information retrieval",
+    "description": "Finding relevant material in a collection."
+   },
+   {
+    "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Introduction to Information Retrieval (free book)",
+    "description": "Stanford's open textbook."
+   }
+  ],
+  "practiceChallenge": "Describe one task that is retrieval (find a known item) and one that is mining (discover a pattern).",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Take a small CSV and find one non-obvious pattern, then explain why a search could not have found it."
+ },
+ {
+  "id": "naming_conventions",
+  "name": "Naming Conventions",
+  "description": "camelCase, snake_case, PascalCase and kebab-case: why languages differ and why consistency beats personal taste.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Naming_convention_(programming)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Naming convention (programming)",
+    "description": "Styles and why they exist."
+   },
+   {
+    "url": "https://peps.python.org/pep-0008/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PEP 8",
+    "description": "Python's official style guide."
+   },
+   {
+    "url": "https://kotlinlang.org/docs/coding-conventions.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Kotlin coding conventions",
+    "description": "Official Kotlin naming and formatting rules."
+   }
+  ],
+  "practiceChallenge": "Rename ten variables in a small file to your language's official style.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "Configure a linter to enforce naming rules and fix every report."
+ },
+ {
+  "id": "computing_fundamentals",
+  "name": "Computing Fundamentals",
+  "description": "Bits, bytes, Unicode and UTF-8, floating-point numbers and algorithmic complexity.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/UTF-8",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "UTF-8",
+    "description": "How characters become 1 to 4 bytes."
+   },
+   {
+    "url": "https://floating-point-gui.de/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "The Floating-Point Guide",
+    "description": "Why decimal fractions surprise programmers."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Big O notation",
+    "description": "Describing how cost grows with input size."
+   },
+   {
+    "url": "https://cs50.harvard.edu/x/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Harvard CS50",
+    "description": "Free course covering bits, memory and algorithms."
+   }
+  ],
+  "practiceChallenge": "Print the UTF-8 bytes of a word in English and of one in Arabic and compare the lengths.",
+  "estimatedMinutes": 45,
+  "advancedChallenge": "Explain with code why 0.1 + 0.2 != 0.3 and how to compare floats safely."
+ },
+ {
+  "id": "debugging_mindset",
+  "name": "Debugging and Misconceptions",
+  "description": "Reproducing bugs, off-by-one and null errors, and questioning assumptions instead of guessing.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Rubber duck debugging",
+    "description": "Explaining code aloud to find bugs."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: Testing and debugging introduction",
+    "description": "Systematic ways to find problems."
+   },
+   {
+    "url": "https://docs.python.org/3/library/pdb.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Python debugger (pdb)",
+    "description": "Step through code interactively."
+   }
+  ],
+  "practiceChallenge": "Take a bug you fixed recently and write the minimal steps that reproduce it.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "Write a failing test for a bug before fixing it, then make it pass."
+ },
+ {
+  "id": "tokenization_basics",
+  "name": "Tokenization Basics",
+  "description": "How text is split into sub-word tokens (BPE and relatives) before a model sees it.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Summary of tokenizers",
+    "description": "BPE, WordPiece and SentencePiece explained."
+   },
+   {
+    "url": "https://arxiv.org/abs/1508.07909",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Neural Machine Translation of Rare Words with Subword Units",
+    "description": "The paper that brought BPE to NLP."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "OpenAI Tokenizer",
+    "description": "Interactive tool that shows how text is tokenized."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "Andrej Karpathy: Let's build the GPT Tokenizer",
+    "description": "Two hours building a tokenizer from scratch."
+   }
+  ],
+  "practiceChallenge": "Paste three sentences into a public tokenizer page and note which words split into several tokens.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Implement a tiny byte-pair-merge loop on a short string and print the merges."
+ },
+ {
+  "id": "token_estimation",
+  "name": "Token Estimation and Cost",
+  "description": "Rules of thumb (about 4 English characters or 0.75 words per token) and why you must count with the real tokenizer for billing.",
+  "resources": [
+   {
+    "url": "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "OpenAI: What are tokens and how to count them",
+    "description": "Rules of thumb and examples."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "OpenAI Tokenizer",
+    "description": "Measure real token counts."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/token-counting",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: Token counting",
+    "description": "Count tokens before sending a request."
+   }
+  ],
+  "practiceChallenge": "Estimate the tokens of a 500-word text, then measure it with a tokenizer and compute your error.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Write a script that estimates monthly cost from average prompt size, reply size and request volume."
+ },
+ {
+  "id": "token_punctuation",
+  "name": "Tokens, Punctuation and Whitespace",
+  "description": "Why '?' may share a token, why leading spaces change tokens, and why case and spacing alter counts.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/learn/nlp-course/chapter6/5",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Hugging Face course: Byte-Pair Encoding",
+    "description": "How merges treat spaces and punctuation."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "OpenAI Tokenizer",
+    "description": "Try punctuation and spacing variants live."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Summary of tokenizers",
+    "description": "Pre-tokenization and whitespace handling."
+   }
+  ],
+  "practiceChallenge": "Tokenize 'hello', ' hello' and 'Hello' and compare the results.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "Find a prompt where removing extra whitespace and punctuation saves at least 10% tokens."
+ },
+ {
+  "id": "multilingual_tokenization",
+  "name": "Multilingual Tokenization",
+  "description": "Why Arabic and other non-English languages often need more tokens for the same meaning, and what that means for cost and context.",
+  "resources": [
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "OpenAI Tokenizer",
+    "description": "Compare Arabic and English side by side."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/UTF-8",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "UTF-8",
+    "description": "Arabic letters take 2 bytes, ASCII takes 1."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Summary of tokenizers",
+    "description": "Vocabulary training and language coverage."
+   }
+  ],
+  "practiceChallenge": "Tokenize the same sentence in English and Arabic and compute the ratio of token counts.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Measure the ratio on ten sentences and report the average and the spread."
+ },
+ {
+  "id": "prompt_engineering",
+  "name": "Prompt Engineering",
+  "description": "Writing clear instructions, giving context and examples, specifying format, and iterating with evidence.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: Prompt engineering overview",
+    "description": "Official techniques and when to use them."
+   },
+   {
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "OpenAI: Prompt engineering guide",
+    "description": "Strategies for better results."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Prompt Engineering Guide",
+    "description": "Open guide with techniques and papers."
+   },
+   {
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "description": "Free short course by DeepLearning.AI."
+   }
+  ],
+  "practiceChallenge": "Rewrite a vague prompt with a role, context, constraints and an output format, then compare results.",
+  "estimatedMinutes": 50,
+  "advancedChallenge": "Build a small set of 10 test inputs and score two prompt versions on it."
+ },
+ {
+  "id": "ai_tools_images",
+  "name": "AI Image Tools",
+  "description": "What image generators and editors do well, how prompts, seeds and styles affect output, and legal and honesty issues.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/diffusers/index",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face Diffusers",
+    "description": "Open-source library for image generation."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Diffusion_model",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Diffusion model",
+    "description": "The idea behind most modern image generators."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Prompt Engineering Guide",
+    "description": "Prompting principles that carry over to image models."
+   }
+  ],
+  "practiceChallenge": "Generate the same scene with three prompt styles and note what each change controlled.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Write a checklist for choosing a generator: licence terms, control, editing, cost."
+ },
+ {
+  "id": "ai_tools_text",
+  "name": "AI Text Assistants",
+  "description": "General-purpose chat assistants: strengths, limits, hallucinations, and verifying output.",
+  "resources": [
+   {
+    "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "Andrej Karpathy: Intro to Large Language Models",
+    "description": "One-hour overview of what LLMs are and their limits."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Large language model",
+    "description": "Background, capabilities and limitations."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: Prompt engineering overview",
+    "description": "Reducing hallucinations with better prompts."
+   }
+  ],
+  "practiceChallenge": "Ask an assistant a factual question you can verify and record where it was right or wrong.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Design a verify-before-trust workflow for AI-written summaries."
+ },
+ {
+  "id": "ai_tools_coding",
+  "name": "AI Coding Assistants",
+  "description": "Autocomplete assistants versus agentic tools that read a repo, run commands and edit many files, and how to review their output.",
+  "resources": [
+   {
+    "url": "https://docs.github.com/en/copilot",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "GitHub Copilot docs",
+    "description": "Completion, chat and agent features."
+   },
+   {
+    "url": "https://docs.cursor.com/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Cursor docs",
+    "description": "An AI-first code editor."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/claude-code/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude Code overview",
+    "description": "An agentic coding tool for the terminal."
+   },
+   {
+    "url": "https://cs50.harvard.edu/ai/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Harvard CS50 AI",
+    "description": "Free course on the ideas behind modern AI."
+   }
+  ],
+  "practiceChallenge": "Use an assistant on a small bug and review every line of its diff before accepting.",
+  "estimatedMinutes": 45,
+  "advancedChallenge": "Write a team checklist for reviewing AI-generated pull requests."
+ },
+ {
+  "id": "document_analysis",
+  "name": "AI Document Analysis",
+  "description": "Analysing long PDFs: text-based versus scanned files, chunking, retrieval, citations and checking quotes against the source.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/pdf-support",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: PDF support",
+    "description": "How PDFs are processed as text plus page images."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Optical_character_recognition",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Optical character recognition",
+    "description": "Turning scanned images into text."
+   },
+   {
+    "url": "https://huggingface.co/learn/cookbook/index",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "Hugging Face Open-Source AI Cookbook",
+    "description": "Practical RAG notebooks."
+   }
+  ],
+  "practiceChallenge": "Summarise a long PDF, then verify three claims in the summary against the original pages.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Sketch a retrieval pipeline: extract, chunk, embed, retrieve, answer with citations."
+ },
+ {
+  "id": "ai_search_tools",
+  "name": "AI Search Tools",
+  "description": "Answer engines that search the live web and cite sources versus chat models that answer from training data.",
+  "resources": [
+   {
+    "url": "https://docs.perplexity.ai/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Perplexity docs",
+    "description": "How a search-grounded answer API works."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Retrieval-augmented generation",
+    "description": "Grounding answers in retrieved documents."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Information retrieval",
+    "description": "The field behind search."
+   }
+  ],
+  "practiceChallenge": "Ask the same news-related question to a search-grounded tool and a plain chat model; compare sources.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "Write rules for when you would trust a cited answer and how you would click through to check."
+ },
+ {
+  "id": "model_speed",
+  "name": "Model Speed and Throughput",
+  "description": "Tokens per second, hardware, model size, quantisation and batching, and why speed claims need context.",
+  "resources": [
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Groq docs",
+    "description": "A fast-inference provider's documentation."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Optimizing LLMs for speed and memory",
+    "description": "Quantisation, FlashAttention and more."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Latency_(engineering)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Latency (engineering)",
+    "description": "Delay versus throughput."
+   }
+  ],
+  "practiceChallenge": "Time the same prompt on two models and compute tokens per second for each.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Explain why throughput and per-user latency can move in opposite directions."
+ },
+ {
+  "id": "inference_basics",
+  "name": "Inference Basics",
+  "description": "How a trained model generates text token by token, what temperature does, and why output length drives latency and cost.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Optimizing LLMs",
+    "description": "Autoregressive generation and KV cache."
+   },
+   {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Attention Is All You Need",
+    "description": "The transformer architecture paper."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "3Blue1Brown: But what is a GPT?",
+    "description": "Visual intro to how transformers predict the next token."
+   }
+  ],
+  "practiceChallenge": "Generate the same prompt at temperature 0 and 1 several times and compare variation.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Draw the generation loop and mark where the KV cache saves work."
+ },
+ {
+  "id": "model_routing",
+  "name": "Model Routing and Gateways",
+  "description": "Sending each request to the cheapest model that is good enough, with fallbacks, and using gateways such as OpenRouter.",
+  "resources": [
+   {
+    "url": "https://openrouter.ai/docs/quickstart",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "OpenRouter quickstart",
+    "description": "One API for many model providers."
+   },
+   {
+    "url": "https://openrouter.ai/docs/features/provider-routing",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "OpenRouter provider routing",
+    "description": "Fallbacks and provider preferences."
+   },
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Groq docs",
+    "description": "A single-provider inference API for comparison."
+   }
+  ],
+  "practiceChallenge": "List five task types and assign a small or large model to each with a reason.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Design a fallback chain that handles provider errors and rate limits."
+ },
+ {
+  "id": "model_context",
+  "name": "Context Windows",
+  "description": "The maximum tokens a model can consider at once (input plus output), and how large contexts raise cost and latency.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: Context windows",
+    "description": "How the window is used and managed."
+   },
+   {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Attention Is All You Need",
+    "description": "Why attention cost grows with sequence length."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: Optimizing LLMs",
+    "description": "Memory growth with long inputs."
+   }
+  ],
+  "practiceChallenge": "Check your model's documented context limit and compute how many pages of text fit.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Write a strategy to keep a long chat inside the window (summarise, trim, retrieve)."
+ },
+ {
+  "id": "lost_in_middle",
+  "name": "Lost in the Middle",
+  "description": "Research showing models often use information at the start and end of a long context better than the middle.",
+  "resources": [
+   {
+    "url": "https://arxiv.org/abs/2307.03172",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "description": "The original paper."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: Prompt engineering overview",
+    "description": "Tips for placing long documents and questions."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Prompt Engineering Guide",
+    "description": "Context-handling techniques."
+   }
+  ],
+  "practiceChallenge": "Place a key fact at the start, middle and end of a long prompt and test recall.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "Reorder a retrieval prompt so the most relevant passages sit at the edges and compare answers."
+ },
+ {
+  "id": "ttft_measurement",
+  "name": "Time to First Token",
+  "description": "TTFT measures the wait before streaming starts; it differs from total time and tokens per second.",
+  "resources": [
+   {
+    "url": "https://web.dev/articles/ttfb",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "web.dev: Time to First Byte",
+    "description": "The web analogue of TTFT."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Latency_(engineering)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Latency (engineering)",
+    "description": "Components of delay."
+   },
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Groq docs",
+    "description": "Streaming and speed-focused APIs."
+   }
+  ],
+  "practiceChallenge": "Measure TTFT and total time for a streamed request and print both.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Compare TTFT for a short and a very long prompt and explain the difference."
+ },
+ {
+  "id": "architecture_basics",
+  "name": "Architecture Basics",
+  "description": "Layers, separation of concerns, coupling and cohesion, and recording decisions with their trade-offs.",
+  "resources": [
+   {
+    "url": "https://developer.android.com/topic/architecture",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Android: Guide to app architecture",
+    "description": "Layered architecture in practice."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Architecture styles",
+    "description": "Overview of common styles."
+   },
+   {
+    "url": "https://martinfowler.com/articles/microservices.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Martin Fowler: Microservices",
+    "description": "A classic article on one architectural style."
+   }
+  ],
+  "practiceChallenge": "Draw your current project as boxes and arrows and mark the most tightly coupled link.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "Write a one-page decision record for a technical choice, listing options and trade-offs."
+ },
+ {
+  "id": "monolith_vs_microservices",
+  "name": "Monolith vs Microservices",
+  "description": "When a modular monolith is the better start and what microservices cost in operations, data and testing.",
+  "resources": [
+   {
+    "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Martin Fowler: Monolith First",
+    "description": "Why to start simple."
+   },
+   {
+    "url": "https://martinfowler.com/articles/microservices.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Martin Fowler: Microservices",
+    "description": "Characteristics and trade-offs."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Microservices architecture",
+    "description": "Design and operations guidance."
+   }
+  ],
+  "practiceChallenge": "List three modules of a booking app and decide which boundaries would be hard to split.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Plan how to extract one module into a service later without a rewrite."
+ },
+ {
+  "id": "frontend_stack",
+  "name": "Frontend Stack Choices",
+  "description": "Native versus cross-platform versus web, rendering strategies, state management and picking tools for the team and the product.",
+  "resources": [
+   {
+    "url": "https://react.dev/learn",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "React: Learn",
+    "description": "Official tutorial for component-based UI."
+   },
+   {
+    "url": "https://developer.android.com/jetpack/compose",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Jetpack Compose",
+    "description": "Android's declarative UI toolkit."
+   },
+   {
+    "url": "https://web.dev/learn",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "web.dev Learn",
+    "description": "Free courses on modern web development."
+   }
+  ],
+  "practiceChallenge": "Choose a stack for a small app and justify it with three product constraints.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "Build the same screen in two approaches and compare size and effort."
+ },
+ {
+  "id": "api_design",
+  "name": "API Design: REST and GraphQL",
+  "description": "Resources, HTTP methods and status codes, idempotency, versioning and when GraphQL's flexibility is worth its cost.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Web API design",
+    "description": "Practical REST guidance."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: HTTP request methods",
+    "description": "Semantics of GET, POST, PUT, PATCH, DELETE."
+   },
+   {
+    "url": "https://graphql.org/learn/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "GraphQL: Learn",
+    "description": "Official introduction."
+   },
+   {
+    "url": "https://martinfowler.com/articles/richardsonMaturityModel.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Richardson Maturity Model",
+    "description": "Levels of REST adoption."
+   }
+  ],
+  "practiceChallenge": "Design endpoints for a to-do app, listing method, path and status codes.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Redesign one endpoint as GraphQL and note what gets easier and what gets harder."
+ },
+ {
+  "id": "db_choice",
+  "name": "Choosing a Database",
+  "description": "Relational versus document and key-value stores, consistency needs, query patterns and when PostgreSQL or MySQL fits.",
+  "resources": [
+   {
+    "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: The SQL Language",
+    "description": "Official tutorial on tables and queries."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/indexes.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: Indexes",
+    "description": "How indexes speed up queries."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Database_index",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Database index",
+    "description": "Trade-offs of indexing."
+   }
+  ],
+  "practiceChallenge": "List the entities and queries of a small app and decide which store fits and why.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Compare two databases on transactions, indexing, JSON support and operations."
+ },
+ {
+  "id": "postgres_transactions",
+  "name": "PostgreSQL Transactions",
+  "description": "ACID, isolation levels, row locks and constraints that keep concurrent bookings correct.",
+  "resources": [
+   {
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: Transactions tutorial",
+    "description": "BEGIN, COMMIT and ROLLBACK."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: Transaction isolation",
+    "description": "Read committed, repeatable read, serializable."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: Explicit locking",
+    "description": "Row-level locks such as FOR UPDATE."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: Constraints",
+    "description": "Unique and check constraints as safety nets."
+   }
+  ],
+  "practiceChallenge": "Open two psql sessions and reproduce a lost update, then prevent it with a row lock.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "Implement last-seat booking safely with a constraint or SELECT ... FOR UPDATE and test it concurrently."
+ },
+ {
+  "id": "caching_basics",
+  "name": "Caching Basics",
+  "description": "Cache-aside, TTLs, invalidation, hit rate and the consistency problems caches introduce.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Cache-Aside pattern",
+    "description": "Load data on demand into a cache."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Caching guidance",
+    "description": "Expiry, eviction and consistency."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: HTTP caching",
+    "description": "Cache-Control and validation."
+   },
+   {
+    "url": "https://martinfowler.com/bliki/TwoHardThings.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Martin Fowler: Two Hard Things",
+    "description": "Cache invalidation and naming."
+   }
+  ],
+  "practiceChallenge": "Add a simple in-memory cache with a TTL to one function and measure hit rate.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "Design an invalidation rule for data that changes in two places."
+ },
+ {
+  "id": "redis_fundamentals",
+  "name": "Redis Fundamentals",
+  "description": "In-memory data structures, expiry, persistence options and when Redis helps and when it only adds complexity.",
+  "resources": [
+   {
+    "url": "https://redis.io/docs/latest/develop/data-types/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: Data types",
+    "description": "Strings, lists, hashes, sets and more."
+   },
+   {
+    "url": "https://redis.io/docs/latest/commands/expire/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: EXPIRE",
+    "description": "Setting time-to-live on keys."
+   },
+   {
+    "url": "https://redis.io/docs/latest/develop/use/keyspace/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: Keyspace",
+    "description": "Keys, expiry and key patterns."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Redis",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Redis (Wikipedia)",
+    "description": "History and use cases."
+   }
+  ],
+  "practiceChallenge": "Store a key with EXPIRE and watch it disappear; then try a list and a hash.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "Implement a rate limiter with INCR and EXPIRE and describe its edge cases."
+ },
+ {
+  "id": "scalability_basics",
+  "name": "Scalability Basics",
+  "description": "Vertical versus horizontal scaling, statelessness, load balancing and finding the real bottleneck first.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Autoscaling",
+    "description": "When and how to scale out."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Scalability",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Scalability",
+    "description": "Vertical, horizontal and their limits."
+   },
+   {
+    "url": "https://aws.amazon.com/builders-library/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Amazon Builders' Library",
+    "description": "Articles on operating systems at scale."
+   }
+  ],
+  "practiceChallenge": "Profile a slow endpoint and name the one bottleneck before proposing any scaling.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "Explain what must change in an app so two instances can run behind a load balancer."
+ },
+ {
+  "id": "system_design",
+  "name": "System Design",
+  "description": "Turning requirements into components: capacity estimates, data flow, failure modes and trade-offs.",
+  "resources": [
+   {
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "System Design Primer",
+    "description": "Popular open guide with diagrams and exercises."
+   },
+   {
+    "url": "https://aws.amazon.com/builders-library/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Amazon Builders' Library",
+    "description": "Real-world design lessons."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: Cloud design patterns",
+    "description": "Catalogue of patterns and trade-offs."
+   }
+  ],
+  "practiceChallenge": "Design a URL shortener on paper: requirements, data model, API and one failure case.",
+  "estimatedMinutes": 50,
+  "advancedChallenge": "Estimate storage and traffic for your design and identify the first bottleneck."
+ }
+]

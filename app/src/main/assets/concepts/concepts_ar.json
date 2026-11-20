@@ -1,0 +1,1102 @@
+[
+ {
+  "id": "programming_history",
+  "name": "تاريخ البرمجة",
+  "description": "كيف تطورت لغات البرمجة وأفكارها من لغة الآلة وFortran إلى اللغات عالية المستوى اليوم.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/History_of_programming_languages",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "تاريخ لغات البرمجة",
+    "description": "نظرة عامة على اللغات من الأربعينيات حتى اليوم."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "آدا لوفلايس",
+    "description": "أول خوارزمية منشورة مخصصة لآلة حاسبة."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "غريس هوبر",
+    "description": "المترجمات ولغة COBOL وقصة أول 'bug'."
+   },
+   {
+    "url": "https://cs50.harvard.edu/x/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "CS50 من هارفارد",
+    "description": "مقدمة مجانية في علوم الحاسوب والبرمجة."
+   }
+  ],
+  "practiceChallenge": "اختر لغتين من عقدين مختلفين واذكر ثلاثة قرارات تصميمية اختلفت بينهما.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "اكتب جدولاً زمنياً من صفحة واحدة يربط كل لغة بالمشكلة التي وُلدت لحلها."
+ },
+ {
+  "id": "javascript_history",
+  "name": "تاريخ JavaScript",
+  "description": "لماذا سُميت JavaScript بهذا الاسم، وكيف بُنيت خلال أيام في Netscape، وكيف وحّدها ECMAScript.",
+  "resources": [
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: جافاسكربت",
+    "description": "المرجع والأدلة الخاصة باللغة."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "دليل JavaScript في MDN",
+    "description": "دليل تدريجي يتضمن نظرة عامة على اللغة."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/JavaScript",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "JavaScript (ويكيبيديا)",
+    "description": "التاريخ والتسمية والتوحيد القياسي."
+   },
+   {
+    "url": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "ولادة JavaScript وموتها",
+    "description": "محاضرة طريفة ومتأملة عن مسار JavaScript."
+   }
+  ],
+  "practiceChallenge": "افتح وحدة تحكم المتصفح ونفّذ typeof null ثم اقرأ لماذا تعيد 'object'.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "اكتب ملاحظة قصيرة تشرح علاقة إصدارات ECMAScript بما تشغّله المتصفحات فعلاً."
+ },
+ {
+  "id": "ai_naming",
+  "name": "أسماء الذكاء الاصطناعي وأصولها",
+  "description": "قصص أسماء مثل 'الذكاء الاصطناعي' وPython وGemini وClaude، وما هو موثّق منها وما هو مجرد تداول.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "ورشة دارتموث (1956)",
+    "description": "المكان الذي طُرح فيه مصطلح 'الذكاء الاصطناعي'."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Claude_Shannon",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "كلود شانون",
+    "description": "أبو نظرية المعلومات."
+   },
+   {
+    "url": "https://docs.python.org/3/faq/general.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "أسئلة Python الشائعة: لماذا سُميت Python؟",
+    "description": "الجواب الرسمي في الأسئلة العامة."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Project_Gemini",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مشروع Gemini من ناسا",
+    "description": "برنامج الفضاء الذي ارتبط به معنى 'التوأم'."
+   }
+  ],
+  "practiceChallenge": "اختر ثلاثة أسماء تقنية وابحث عن مصدر أولي لأصل كل اسم.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "دوّن أي ادعاءات التسمية التي وجدتها موثقة رسمياً وأيها منقول فقط."
+ },
+ {
+  "id": "data_mining_naming",
+  "name": "التنقيب في البيانات مقابل استرجاع المعلومات",
+  "description": "لماذا يعني 'التنقيب في البيانات' اكتشاف الأنماط لا استخراج البيانات، وبماذا يختلف عن استرجاع مستندات معروفة.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Data_mining",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "التنقيب في البيانات",
+    "description": "التعريف والعملية وأصل المصطلح."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "استرجاع المعلومات",
+    "description": "إيجاد المواد ذات الصلة في مجموعة."
+   },
+   {
+    "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "مقدمة في استرجاع المعلومات (كتاب مجاني)",
+    "description": "كتاب جامعة ستانفورد المفتوح."
+   }
+  ],
+  "practiceChallenge": "صف مهمة واحدة استرجاعاً (إيجاد عنصر معروف) وأخرى تنقيباً (اكتشاف نمط).",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "خذ ملف CSV صغيراً واستخرج نمطاً غير بديهي ثم اشرح لماذا لا يجده البحث."
+ },
+ {
+  "id": "naming_conventions",
+  "name": "اصطلاحات التسمية",
+  "description": "camelCase وsnake_case وPascalCase وkebab-case: لماذا تختلف اللغات ولماذا يتفوّق الاتساق على الذوق الشخصي.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Naming_convention_(programming)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "اصطلاح التسمية (برمجة)",
+    "description": "الأساليب وسبب وجودها."
+   },
+   {
+    "url": "https://peps.python.org/pep-0008/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PEP 8",
+    "description": "دليل الأسلوب الرسمي للغة Python."
+   },
+   {
+    "url": "https://kotlinlang.org/docs/coding-conventions.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "اصطلاحات كتابة Kotlin",
+    "description": "قواعد التسمية والتنسيق الرسمية للغة Kotlin."
+   }
+  ],
+  "practiceChallenge": "أعد تسمية عشرة متغيرات في ملف صغير وفق أسلوب لغتك الرسمي.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "اضبط أداة linter لفرض قواعد التسمية وأصلح كل ما تبلغ عنه."
+ },
+ {
+  "id": "computing_fundamentals",
+  "name": "أساسيات الحوسبة",
+  "description": "البتات والبايتات وUnicode وUTF-8 والأعداد العشرية العائمة وتعقيد الخوارزميات.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/UTF-8",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "UTF-8",
+    "description": "كيف تتحول الحروف إلى 1 حتى 4 بايتات."
+   },
+   {
+    "url": "https://floating-point-gui.de/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "دليل الأعداد العشرية العائمة",
+    "description": "لماذا تفاجئ الكسور العشرية المبرمجين."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "ترميز Big O",
+    "description": "وصف نمو الكلفة مع حجم المدخلات."
+   },
+   {
+    "url": "https://cs50.harvard.edu/x/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "CS50 من هارفارد",
+    "description": "دورة مجانية تغطي البتات والذاكرة والخوارزميات."
+   }
+  ],
+  "practiceChallenge": "اطبع بايتات UTF-8 لكلمة إنجليزية وأخرى عربية وقارن الأطوال.",
+  "estimatedMinutes": 45,
+  "advancedChallenge": "اشرح بالكود لماذا 0.1 + 0.2 != 0.3 وكيف تقارن الأعداد العشرية بأمان."
+ },
+ {
+  "id": "debugging_mindset",
+  "name": "تنقيح الأخطاء وسوء الفهم الشائع",
+  "description": "إعادة إنتاج الأخطاء، وأخطاء الإزاحة بواحد وnull، ومساءلة الافتراضات بدل التخمين.",
+  "resources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "التنقيح بالبطة المطاطية",
+    "description": "شرح الكود بصوت عالٍ لاكتشاف الأخطاء."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: مقدمة في الاختبار والتنقيح",
+    "description": "طرق منهجية لإيجاد المشكلات."
+   },
+   {
+    "url": "https://docs.python.org/3/library/pdb.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "مُنقّح Python‏ (pdb)",
+    "description": "تنفيذ الكود خطوة بخطوة بشكل تفاعلي."
+   }
+  ],
+  "practiceChallenge": "خذ خطأً أصلحته مؤخراً واكتب أقل خطوات تعيد إنتاجه.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "اكتب اختباراً فاشلاً للخطأ قبل إصلاحه ثم اجعله ينجح."
+ },
+ {
+  "id": "tokenization_basics",
+  "name": "أساسيات التقطيع إلى توكنات",
+  "description": "كيف يُقسَّم النص إلى توكنات جزئية (BPE وأقاربها) قبل أن يراه النموذج.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: ملخص المُقطِّعات",
+    "description": "شرح BPE وWordPiece وSentencePiece."
+   },
+   {
+    "url": "https://arxiv.org/abs/1508.07909",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "الترجمة الآلية العصبية للكلمات النادرة بوحدات جزئية",
+    "description": "الورقة التي أدخلت BPE إلى معالجة اللغة."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "محلل التوكنات من OpenAI",
+    "description": "أداة تفاعلية تُظهر كيف يُقطَّع النص."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "أندري كارباثي: لنبنِ مُقطِّع GPT",
+    "description": "ساعتان لبناء مُقطِّع من الصفر."
+   }
+  ],
+  "practiceChallenge": "الصق ثلاث جمل في صفحة محلل توكنات عامة ولاحظ أي الكلمات تنقسم إلى عدة توكنات.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "نفّذ حلقة دمج أزواج بايتات صغيرة على نص قصير واطبع عمليات الدمج."
+ },
+ {
+  "id": "token_estimation",
+  "name": "تقدير التوكنات والكلفة",
+  "description": "قواعد تقريبية (نحو 4 أحرف إنجليزية أو 0.75 كلمة لكل توكن) ولماذا يجب العدّ بالمُقطِّع الحقيقي عند احتساب الفوترة.",
+  "resources": [
+   {
+    "url": "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "OpenAI: ما التوكنات وكيف تُعدّ",
+    "description": "قواعد تقريبية وأمثلة."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "محلل التوكنات من OpenAI",
+    "description": "قِس عدد التوكنات الفعلي."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/token-counting",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: عدّ التوكنات",
+    "description": "عدّ التوكنات قبل إرسال الطلب."
+   }
+  ],
+  "practiceChallenge": "قدّر توكنات نص من 500 كلمة ثم قِسها بالمُقطِّع واحسب نسبة خطئك.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "اكتب سكربتاً يقدّر الكلفة الشهرية من متوسط حجم الطلب والرد وعدد الطلبات."
+ },
+ {
+  "id": "token_punctuation",
+  "name": "التوكنات وعلامات الترقيم والمسافات",
+  "description": "لماذا قد تشترك '?' في توكن مع غيرها، ولماذا تغيّر المسافة البادئة التوكنات، ولماذا تؤثر حالة الأحرف والمسافات في العدد.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/learn/nlp-course/chapter6/5",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "دورة Hugging Face: ترميز أزواج البايتات",
+    "description": "كيف تعامل الدمجات المسافات وعلامات الترقيم."
+   },
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "محلل التوكنات من OpenAI",
+    "description": "جرّب تنويعات الترقيم والمسافات مباشرة."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: ملخص المُقطِّعات",
+    "description": "المعالجة المسبقة للتقطيع والمسافات."
+   }
+  ],
+  "practiceChallenge": "قطّع 'hello' و' hello' و'Hello' وقارن النتائج.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "ابحث عن طلب يوفّر حذف المسافات وعلامات الترقيم الزائدة فيه 10% على الأقل من التوكنات."
+ },
+ {
+  "id": "multilingual_tokenization",
+  "name": "التقطيع متعدد اللغات",
+  "description": "لماذا تحتاج العربية ولغات أخرى غير الإنجليزية غالباً توكنات أكثر للمعنى نفسه، وما أثر ذلك في الكلفة والسياق.",
+  "resources": [
+   {
+    "url": "https://platform.openai.com/tokenizer",
+    "type": "PRACTICE",
+    "language": "EN",
+    "title": "محلل التوكنات من OpenAI",
+    "description": "قارن العربية والإنجليزية جنباً إلى جنب."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/UTF-8",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "UTF-8",
+    "description": "الحروف العربية تأخذ بايتين وASCII بايتاً واحداً."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: ملخص المُقطِّعات",
+    "description": "تدريب المفردات وتغطية اللغات."
+   }
+  ],
+  "practiceChallenge": "قطّع الجملة نفسها بالإنجليزية والعربية واحسب نسبة عدد التوكنات.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "قِس النسبة على عشر جمل واذكر المتوسط والتباين."
+ },
+ {
+  "id": "prompt_engineering",
+  "name": "هندسة الأوامر (Prompt Engineering)",
+  "description": "كتابة تعليمات واضحة وتقديم السياق والأمثلة وتحديد الصيغة والتحسين المتكرر بالأدلة.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: نظرة عامة على هندسة الأوامر",
+    "description": "التقنيات الرسمية ومتى تُستخدم."
+   },
+   {
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "OpenAI: دليل هندسة الأوامر",
+    "description": "استراتيجيات لنتائج أفضل."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "دليل هندسة الأوامر",
+    "description": "دليل مفتوح بالتقنيات والأوراق البحثية."
+   },
+   {
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "هندسة أوامر ChatGPT للمطورين",
+    "description": "دورة قصيرة مجانية من DeepLearning.AI."
+   }
+  ],
+  "practiceChallenge": "أعد كتابة أمر غامض بدور وسياق وقيود وصيغة إخراج ثم قارن النتائج.",
+  "estimatedMinutes": 50,
+  "advancedChallenge": "ابنِ مجموعة من 10 مدخلات اختبار وقيّم إصدارين من الأمر عليها."
+ },
+ {
+  "id": "ai_tools_images",
+  "name": "أدوات الصور بالذكاء الاصطناعي",
+  "description": "ما تجيده مولّدات الصور ومحرّراتها، وكيف تؤثر الأوامر والبذور والأنماط في الناتج، والمسائل القانونية والأمانة.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/diffusers/index",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "مكتبة Diffusers من Hugging Face",
+    "description": "مكتبة مفتوحة المصدر لتوليد الصور."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Diffusion_model",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "نموذج الانتشار",
+    "description": "الفكرة وراء معظم مولّدات الصور الحديثة."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "دليل هندسة الأوامر",
+    "description": "مبادئ أوامر تنطبق على نماذج الصور."
+   }
+  ],
+  "practiceChallenge": "ولّد المشهد نفسه بثلاثة أساليب أوامر ولاحظ ما تحكّم به كل تغيير.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "اكتب قائمة فحص لاختيار المولّد: شروط الترخيص والتحكم والتحرير والكلفة."
+ },
+ {
+  "id": "ai_tools_text",
+  "name": "مساعدات النصوص بالذكاء الاصطناعي",
+  "description": "المساعدات الحوارية العامة: نقاط قوتها وحدودها والهلوسة والتحقق من المخرجات.",
+  "resources": [
+   {
+    "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "أندري كارباثي: مقدمة في النماذج اللغوية الكبيرة",
+    "description": "نظرة عامة من ساعة عن ماهية النماذج وحدودها."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "النموذج اللغوي الكبير",
+    "description": "الخلفية والقدرات والقيود."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: نظرة عامة على هندسة الأوامر",
+    "description": "تقليل الهلوسة بأوامر أفضل."
+   }
+  ],
+  "practiceChallenge": "اسأل مساعداً سؤالاً واقعياً يمكنك التحقق منه وسجّل أين أصاب وأين أخطأ.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "صمّم سير عمل 'تحقق قبل أن تثق' لملخصات كتبها الذكاء الاصطناعي."
+ },
+ {
+  "id": "ai_tools_coding",
+  "name": "مساعدات البرمجة بالذكاء الاصطناعي",
+  "description": "مساعدات الإكمال التلقائي مقابل الأدوات الوكيلة التي تقرأ المستودع وتشغّل الأوامر وتعدّل ملفات كثيرة، وكيف تراجع مخرجاتها.",
+  "resources": [
+   {
+    "url": "https://docs.github.com/en/copilot",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق GitHub Copilot",
+    "description": "الإكمال والدردشة وميزات الوكيل."
+   },
+   {
+    "url": "https://docs.cursor.com/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق Cursor",
+    "description": "محرر شيفرة يضع الذكاء الاصطناعي في المقدمة."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/claude-code/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "نظرة عامة على Claude Code",
+    "description": "أداة برمجة وكيلة تعمل من الطرفية."
+   },
+   {
+    "url": "https://cs50.harvard.edu/ai/",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "CS50 للذكاء الاصطناعي من هارفارد",
+    "description": "دورة مجانية في الأفكار وراء الذكاء الاصطناعي الحديث."
+   }
+  ],
+  "practiceChallenge": "استخدم مساعداً في خطأ صغير وراجع كل سطر في تعديلاته قبل القبول.",
+  "estimatedMinutes": 45,
+  "advancedChallenge": "اكتب قائمة فحص للفريق لمراجعة طلبات الدمج التي ولّدها الذكاء الاصطناعي."
+ },
+ {
+  "id": "document_analysis",
+  "name": "تحليل المستندات بالذكاء الاصطناعي",
+  "description": "تحليل ملفات PDF الطويلة: النصية مقابل الممسوحة، والتجزئة والاسترجاع والاستشهاد والتحقق من الاقتباسات مع المصدر.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/pdf-support",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: دعم ملفات PDF",
+    "description": "كيف تُعالَج ملفات PDF كنص وصور صفحات."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Optical_character_recognition",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "التعرف الضوئي على الحروف",
+    "description": "تحويل الصور الممسوحة إلى نص."
+   },
+   {
+    "url": "https://huggingface.co/learn/cookbook/index",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "كتاب طبخ الذكاء الاصطناعي المفتوح من Hugging Face",
+    "description": "دفاتر عملية لـ RAG."
+   }
+  ],
+  "practiceChallenge": "لخّص ملف PDF طويلاً ثم تحقق من ثلاث ادعاءات في الملخص مقابل الصفحات الأصلية.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "ارسم مسار استرجاع: استخراج ثم تجزئة ثم تضمين ثم استرجاع ثم إجابة مع استشهادات."
+ },
+ {
+  "id": "ai_search_tools",
+  "name": "أدوات البحث بالذكاء الاصطناعي",
+  "description": "محركات الإجابة التي تبحث في الويب الحي وتذكر مصادرها مقابل نماذج الدردشة التي تجيب من بيانات التدريب.",
+  "resources": [
+   {
+    "url": "https://docs.perplexity.ai/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق Perplexity",
+    "description": "كيف تعمل واجهة إجابات مدعومة بالبحث."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "التوليد المعزز بالاسترجاع",
+    "description": "ربط الإجابات بمستندات مسترجَعة."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "استرجاع المعلومات",
+    "description": "المجال الذي يقوم عليه البحث."
+   }
+  ],
+  "practiceChallenge": "اطرح السؤال الإخباري نفسه على أداة مدعومة بالبحث وعلى نموذج دردشة عادي وقارن المصادر.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "اكتب قواعد متى تثق بإجابة مُستشهَد بها وكيف تفتح المصدر للتحقق."
+ },
+ {
+  "id": "model_speed",
+  "name": "سرعة النماذج والإنتاجية",
+  "description": "التوكنات في الثانية، والعتاد، وحجم النموذج، والتكميم، والتجميع، ولماذا تحتاج ادعاءات السرعة إلى سياق.",
+  "resources": [
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق Groq",
+    "description": "وثائق مزوّد استدلال سريع."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: تحسين النماذج للسرعة والذاكرة",
+    "description": "التكميم وFlashAttention وغيرها."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Latency_(engineering)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "زمن الاستجابة (هندسة)",
+    "description": "التأخير مقابل الإنتاجية."
+   }
+  ],
+  "practiceChallenge": "قِس زمن الأمر نفسه على نموذجين واحسب التوكنات في الثانية لكل منهما.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "اشرح لماذا قد تتحرك الإنتاجية وزمن المستخدم الواحد في اتجاهين متعاكسين."
+ },
+ {
+  "id": "inference_basics",
+  "name": "أساسيات الاستدلال",
+  "description": "كيف يولّد نموذج مدرَّب النص توكناً بعد توكن، وماذا تفعل درجة الحرارة، ولماذا يتحكم طول المخرجات في الزمن والكلفة.",
+  "resources": [
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: تحسين النماذج اللغوية",
+    "description": "التوليد التتابعي وذاكرة KV."
+   },
+   {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "الانتباه هو كل ما تحتاجه",
+    "description": "ورقة بنية المحوِّل (Transformer)."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+    "type": "VIDEO",
+    "language": "EN",
+    "title": "3Blue1Brown: ما هو GPT؟",
+    "description": "مقدمة مرئية لكيفية تنبؤ المحوِّلات بالتوكن التالي."
+   }
+  ],
+  "practiceChallenge": "ولّد الأمر نفسه عند حرارة 0 و1 عدة مرات وقارن التباين.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "ارسم حلقة التوليد وحدّد أين توفّر ذاكرة KV العمل."
+ },
+ {
+  "id": "model_routing",
+  "name": "توجيه النماذج والبوابات",
+  "description": "إرسال كل طلب إلى أرخص نموذج يكفي، مع بدائل احتياطية، واستخدام بوابات مثل OpenRouter.",
+  "resources": [
+   {
+    "url": "https://openrouter.ai/docs/quickstart",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "البدء السريع مع OpenRouter",
+    "description": "واجهة واحدة لعدة مزوّدي نماذج."
+   },
+   {
+    "url": "https://openrouter.ai/docs/features/provider-routing",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "توجيه المزوّدين في OpenRouter",
+    "description": "البدائل وتفضيلات المزوّد."
+   },
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق Groq",
+    "description": "واجهة استدلال من مزوّد واحد للمقارنة."
+   }
+  ],
+  "practiceChallenge": "اذكر خمسة أنواع مهام وعيّن لكل منها نموذجاً صغيراً أو كبيراً مع السبب.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "صمّم سلسلة بدائل تعالج أعطال المزوّد وحدود المعدل."
+ },
+ {
+  "id": "model_context",
+  "name": "نوافذ السياق",
+  "description": "أقصى عدد من التوكنات يستطيع النموذج النظر فيه دفعة واحدة (المدخلات والمخرجات)، وكيف ترفع السياقات الكبيرة الكلفة والزمن.",
+  "resources": [
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: نوافذ السياق",
+    "description": "كيف تُستخدم النافذة وتُدار."
+   },
+   {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "الانتباه هو كل ما تحتاجه",
+    "description": "لماذا تزداد كلفة الانتباه مع طول التسلسل."
+   },
+   {
+    "url": "https://huggingface.co/docs/transformers/llm_tutorial_optimization",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Hugging Face: تحسين النماذج اللغوية",
+    "description": "نمو الذاكرة مع المدخلات الطويلة."
+   }
+  ],
+  "practiceChallenge": "اطّلع على حد السياق الموثّق لنموذجك واحسب كم صفحة نص تتسع.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "اكتب استراتيجية لإبقاء محادثة طويلة داخل النافذة (تلخيص وقص واسترجاع)."
+ },
+ {
+  "id": "lost_in_middle",
+  "name": "الضياع في المنتصف",
+  "description": "بحث يُظهر أن النماذج كثيراً ما تستخدم المعلومات في بداية السياق الطويل ونهايته أفضل من منتصفه.",
+  "resources": [
+   {
+    "url": "https://arxiv.org/abs/2307.03172",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "الضياع في المنتصف: كيف تستخدم النماذج السياقات الطويلة",
+    "description": "الورقة الأصلية."
+   },
+   {
+    "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Claude: نظرة عامة على هندسة الأوامر",
+    "description": "نصائح لوضع المستندات الطويلة والأسئلة."
+   },
+   {
+    "url": "https://www.promptingguide.ai/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "دليل هندسة الأوامر",
+    "description": "تقنيات التعامل مع السياق."
+   }
+  ],
+  "practiceChallenge": "ضع معلومة مهمة في البداية والمنتصف والنهاية داخل أمر طويل واختبر الاستدعاء.",
+  "estimatedMinutes": 25,
+  "advancedChallenge": "أعد ترتيب أمر استرجاع بحيث تقع المقاطع الأهم عند الأطراف وقارن الإجابات."
+ },
+ {
+  "id": "ttft_measurement",
+  "name": "زمن أول توكن (TTFT)",
+  "description": "يقيس TTFT الانتظار قبل بدء البث؛ وهو يختلف عن الزمن الكلي وعن التوكنات في الثانية.",
+  "resources": [
+   {
+    "url": "https://web.dev/articles/ttfb",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "web.dev: زمن أول بايت",
+    "description": "النظير في الويب لـ TTFT."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Latency_(engineering)",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "زمن الاستجابة (هندسة)",
+    "description": "مكوّنات التأخير."
+   },
+   {
+    "url": "https://console.groq.com/docs/overview",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "وثائق Groq",
+    "description": "واجهات البث والتركيز على السرعة."
+   }
+  ],
+  "practiceChallenge": "قِس TTFT والزمن الكلي لطلب بثّ واطبعهما.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "قارن TTFT لأمر قصير وآخر طويل جداً واشرح الفرق."
+ },
+ {
+  "id": "architecture_basics",
+  "name": "أساسيات العمارة البرمجية",
+  "description": "الطبقات وفصل الاهتمامات والترابط والتماسك وتوثيق القرارات مع مفاضلاتها.",
+  "resources": [
+   {
+    "url": "https://developer.android.com/topic/architecture",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Android: دليل عمارة التطبيقات",
+    "description": "العمارة الطبقية عملياً."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: الأنماط المعمارية",
+    "description": "نظرة على الأنماط الشائعة."
+   },
+   {
+    "url": "https://martinfowler.com/articles/microservices.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مارتن فاولر: الخدمات المصغّرة",
+    "description": "مقالة كلاسيكية عن نمط معماري."
+   }
+  ],
+  "practiceChallenge": "ارسم مشروعك الحالي كمربعات وأسهم وحدّد الرابط الأشد ترابطاً.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "اكتب سجل قرار من صفحة لخيار تقني مع البدائل والمفاضلات."
+ },
+ {
+  "id": "monolith_vs_microservices",
+  "name": "المتجانس مقابل الخدمات المصغّرة",
+  "description": "متى يكون المتجانس المقسّم إلى وحدات بداية أفضل، وماذا تكلّف الخدمات المصغّرة في التشغيل والبيانات والاختبار.",
+  "resources": [
+   {
+    "url": "https://martinfowler.com/bliki/MonolithFirst.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مارتن فاولر: المتجانس أولاً",
+    "description": "لماذا تبدأ ببساطة."
+   },
+   {
+    "url": "https://martinfowler.com/articles/microservices.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مارتن فاولر: الخدمات المصغّرة",
+    "description": "الخصائص والمفاضلات."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: عمارة الخدمات المصغّرة",
+    "description": "إرشادات التصميم والتشغيل."
+   }
+  ],
+  "practiceChallenge": "اذكر ثلاث وحدات لتطبيق حجوزات وقرّر أي الحدود يصعب فصلها.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "خطّط لاستخراج وحدة واحدة إلى خدمة لاحقاً دون إعادة كتابة."
+ },
+ {
+  "id": "frontend_stack",
+  "name": "اختيار حزمة الواجهة الأمامية",
+  "description": "الأصلي مقابل متعدد المنصات مقابل الويب، واستراتيجيات العرض وإدارة الحالة، واختيار الأدوات بحسب الفريق والمنتج.",
+  "resources": [
+   {
+    "url": "https://react.dev/learn",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "React: تعلّم",
+    "description": "الدليل الرسمي لواجهات المكوّنات."
+   },
+   {
+    "url": "https://developer.android.com/jetpack/compose",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Jetpack Compose",
+    "description": "عدّة واجهات تصريحية لأندرويد."
+   },
+   {
+    "url": "https://web.dev/learn",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "web.dev Learn",
+    "description": "دورات مجانية في تطوير الويب الحديث."
+   }
+  ],
+  "practiceChallenge": "اختر حزمة لتطبيق صغير وبرّر اختيارك بثلاثة قيود للمنتج.",
+  "estimatedMinutes": 30,
+  "advancedChallenge": "ابنِ الشاشة نفسها بطريقتين وقارن الحجم والجهد."
+ },
+ {
+  "id": "api_design",
+  "name": "تصميم واجهات API: REST وGraphQL",
+  "description": "الموارد وطرق HTTP ورموز الحالة والتكرار الآمن (idempotency) والإصدارات ومتى تستحق مرونة GraphQL كلفتها.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: تصميم Web API",
+    "description": "إرشادات REST عملية."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: طرق طلبات HTTP",
+    "description": "دلالات GET وPOST وPUT وPATCH وDELETE."
+   },
+   {
+    "url": "https://graphql.org/learn/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "GraphQL: تعلّم",
+    "description": "المقدمة الرسمية."
+   },
+   {
+    "url": "https://martinfowler.com/articles/richardsonMaturityModel.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "نموذج ريتشاردسون للنضج",
+    "description": "مستويات تبنّي REST."
+   }
+  ],
+  "practiceChallenge": "صمّم نقاط نهاية لتطبيق مهام مع الطريقة والمسار ورموز الحالة.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "أعد تصميم نقطة نهاية واحدة بـ GraphQL ولاحظ ما يسهل وما يصعب."
+ },
+ {
+  "id": "db_choice",
+  "name": "اختيار قاعدة البيانات",
+  "description": "العلائقية مقابل المستندية ومخازن المفتاح-القيمة، واحتياجات الاتساق وأنماط الاستعلام ومتى تناسب PostgreSQL أو MySQL.",
+  "resources": [
+   {
+    "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: لغة SQL",
+    "description": "الدليل الرسمي عن الجداول والاستعلامات."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/indexes.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: الفهارس",
+    "description": "كيف تسرّع الفهارس الاستعلامات."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Database_index",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "فهرس قاعدة البيانات",
+    "description": "مفاضلات الفهرسة."
+   }
+  ],
+  "practiceChallenge": "اذكر كيانات تطبيق صغير واستعلاماته وقرّر المخزن المناسب ولماذا.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "قارن قاعدتين من حيث المعاملات والفهرسة ودعم JSON والتشغيل."
+ },
+ {
+  "id": "postgres_transactions",
+  "name": "معاملات PostgreSQL",
+  "description": "خصائص ACID ومستويات العزل وأقفال الصفوف والقيود التي تُبقي الحجوزات المتزامنة صحيحة.",
+  "resources": [
+   {
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: دليل المعاملات",
+    "description": "BEGIN وCOMMIT وROLLBACK."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: عزل المعاملات",
+    "description": "Read committed وRepeatable read وSerializable."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: الأقفال الصريحة",
+    "description": "أقفال الصفوف مثل FOR UPDATE."
+   },
+   {
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "PostgreSQL: القيود",
+    "description": "القيود الفريدة وقيود الفحص كشبكة أمان."
+   }
+  ],
+  "practiceChallenge": "افتح جلستي psql وأعد إنتاج تحديث ضائع ثم امنعه بقفل صف.",
+  "estimatedMinutes": 40,
+  "advancedChallenge": "نفّذ حجز المقعد الأخير بأمان بقيد أو SELECT ... FOR UPDATE واختبره بالتزامن."
+ },
+ {
+  "id": "caching_basics",
+  "name": "أساسيات التخزين المؤقت",
+  "description": "نمط cache-aside وTTL والإبطال ومعدل الإصابة ومشكلات الاتساق التي تجلبها الكاشات.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: نمط Cache-Aside",
+    "description": "تحميل البيانات عند الطلب إلى الكاش."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: إرشادات التخزين المؤقت",
+    "description": "انتهاء الصلاحية والإخلاء والاتساق."
+   },
+   {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "MDN: التخزين المؤقت في HTTP",
+    "description": "Cache-Control والتحقق."
+   },
+   {
+    "url": "https://martinfowler.com/bliki/TwoHardThings.html",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مارتن فاولر: شيئان صعبان",
+    "description": "إبطال الكاش والتسمية."
+   }
+  ],
+  "practiceChallenge": "أضف كاشاً بسيطاً في الذاكرة مع TTL لدالة واحدة وقِس معدل الإصابة.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "صمّم قاعدة إبطال لبيانات تتغير في مكانين."
+ },
+ {
+  "id": "redis_fundamentals",
+  "name": "أساسيات Redis",
+  "description": "هياكل البيانات في الذاكرة وانتهاء الصلاحية وخيارات الحفظ ومتى يفيد Redis ومتى يضيف تعقيداً فقط.",
+  "resources": [
+   {
+    "url": "https://redis.io/docs/latest/develop/data-types/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: أنواع البيانات",
+    "description": "السلاسل والقوائم والهاش والمجموعات وغيرها."
+   },
+   {
+    "url": "https://redis.io/docs/latest/commands/expire/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: EXPIRE",
+    "description": "تحديد مدة بقاء المفاتيح."
+   },
+   {
+    "url": "https://redis.io/docs/latest/develop/use/keyspace/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Redis: فضاء المفاتيح",
+    "description": "المفاتيح وانتهاء الصلاحية وأنماط المفاتيح."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Redis",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "Redis (ويكيبيديا)",
+    "description": "التاريخ وحالات الاستخدام."
+   }
+  ],
+  "practiceChallenge": "خزّن مفتاحاً مع EXPIRE وشاهده يختفي ثم جرّب قائمة وهاش.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "نفّذ محدّد معدل باستخدام INCR وEXPIRE واذكر حالاته الحدّية."
+ },
+ {
+  "id": "scalability_basics",
+  "name": "أساسيات قابلية التوسع",
+  "description": "التوسع الرأسي مقابل الأفقي، وعدم الاحتفاظ بالحالة، وموازنة الحمل، وإيجاد عنق الزجاجة الحقيقي أولاً.",
+  "resources": [
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: التوسع التلقائي",
+    "description": "متى وكيف تتوسع أفقياً."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Scalability",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "قابلية التوسع",
+    "description": "الرأسي والأفقي وحدودهما."
+   },
+   {
+    "url": "https://aws.amazon.com/builders-library/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مكتبة بنّائي أمازون",
+    "description": "مقالات عن تشغيل الأنظمة على نطاق واسع."
+   }
+  ],
+  "practiceChallenge": "حلّل أداء نقطة نهاية بطيئة وسمِّ عنق الزجاجة الواحد قبل اقتراح أي توسع.",
+  "estimatedMinutes": 35,
+  "advancedChallenge": "اشرح ما يجب تغييره في تطبيق ليعمل نسختان خلف موازن حمل."
+ },
+ {
+  "id": "system_design",
+  "name": "تصميم الأنظمة",
+  "description": "تحويل المتطلبات إلى مكوّنات: تقدير السعة وتدفق البيانات وأنماط الفشل والمفاضلات.",
+  "resources": [
+   {
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "type": "COURSE",
+    "language": "EN",
+    "title": "System Design Primer",
+    "description": "دليل مفتوح شهير بالمخططات والتمارين."
+   },
+   {
+    "url": "https://aws.amazon.com/builders-library/",
+    "type": "ARTICLE",
+    "language": "EN",
+    "title": "مكتبة بنّائي أمازون",
+    "description": "دروس تصميم من الواقع."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+    "type": "DOCUMENTATION",
+    "language": "EN",
+    "title": "Microsoft Learn: أنماط تصميم السحابة",
+    "description": "فهرس للأنماط ومفاضلاتها."
+   }
+  ],
+  "practiceChallenge": "صمّم مختصِر روابط على الورق: المتطلبات ونموذج البيانات وAPI وحالة فشل واحدة.",
+  "estimatedMinutes": 50,
+  "advancedChallenge": "قدّر التخزين والحركة لتصميمك وحدّد أول عنق زجاجة."
+ }
+]

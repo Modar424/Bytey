@@ -1,0 +1,25 @@
+name: Content check
+on:
+  push:
+    paths: ["tools/**", "app/src/main/assets/questions/**", "app/src/main/assets/concepts/**"]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Rebuild and validate the question bank
+        run: python3 tools/build_content.py
+      - name: Committed JSON must match the sources
+        run: git diff --exit-code -- app/src/main/assets/questions app/src/main/assets/concepts
+  links:
+    runs-on: ubuntu-latest
+    continue-on-error: true   # a dead third-party link should not block the build; read the log
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Check resource URLs
+        run: python3 tools/check_links.py
